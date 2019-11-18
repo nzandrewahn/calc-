@@ -85,8 +85,3 @@ enterButton.onclick = function() {
 
 };
 
-
-
-
-
-//Firstly get the numbers when pressed and display to the text -field
