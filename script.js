@@ -5,8 +5,11 @@ let output = document.querySelector("#output");
 console.log(buttonList);
 let clicks = 0;
 let operator = 0;
+let valueOne = 0;
+let valueTwo = 0;
+
 let printValue; 
-let valueOne, valueTwo;
+let clicks, operator, valueOne, valueTwo = 0;
 
 
 for (let i = 0; i < buttonList.length; i++) {
@@ -60,6 +63,13 @@ let enterButton = document.querySelector('#enter');
 let result;
 
 enterButton.onclick = function() {
+    if (output.value == result) {
+
+    }
+
+
+
+
     switch (operator) {
         case '+': 
         console.log('HELLOOO');
@@ -80,6 +90,9 @@ enterButton.onclick = function() {
     }
 
     output.value = result;
+
+ 
+    
 };
 
 
