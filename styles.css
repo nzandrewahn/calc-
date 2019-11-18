@@ -3,6 +3,7 @@ body {
     margin-top: 10rem;
     text-align: center;
     background-color: #ffe7d1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #calc-body {
@@ -17,9 +18,9 @@ table {
     margin:auto;
 }
 input {
-    margin: 2rem 0 2rem 1rem;
+    margin: 2rem;
     font-size: 2rem;
-    width: 10rem;
+    width: 13rem;
     height: 3rem;
 }
 
@@ -33,5 +34,8 @@ button {
 
 #output {
     text-align: right;
+}
+p {
+    margin: 1rem 0 0 0;
 }
 
